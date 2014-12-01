@@ -1,4 +1,4 @@
-# CS 3340 - Computer Architecture
+# CS 3376 - C C++ Programming in a UNIX Environment
 
 ## Course Description
 
