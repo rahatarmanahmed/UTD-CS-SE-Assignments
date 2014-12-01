@@ -1,0 +1,90 @@
+2 	Load addr	// Load n from data
+700
+14 	CopyToX
+26	DecX		// X has initial # of spaces
+1 	Load 1
+1
+16	CopyToY		/ Y has initial # of *'s
+15	CopyFromX	// Print X ' 's :printrow
+27	Push
+23	Call
+34				// GOTO print n space
+17	CopyFromY	// Print Y '*'s
+27	Push
+23	Call
+54				// GOTO print n *
+28	Pop			// get the old X and print again
+23	Call
+34				// GOTO print n space
+23
+74				// GOTO print new line
+26	DecX		// Adjust X and Y
+15	CopyFromX
+27	Push
+17	CopyFromY
+14	CopyToX
+25	IncX
+25	IncX
+15	CopyFromX
+16	CopyToY
+28	Pop
+14	CopyToX
+22	JumpIfNotZero
+7 				 // GOTO :printrow
+50	End
+27	Push AC		// print n space
+15	CopyFromX
+27	Push X
+1 	Load 1
+3
+14	CopyToX
+6	LoadSpX
+14	CopyToX
+1 	Load ' '	:Loop
+32
+9	Output char
+2
+26	DecX
+15	CopyFromX
+22	JumpIfNotZero
+42				// GOTO :Loop
+28	Pop AC
+14	CopyToX
+28	Pop AC
+24	Return
+27	Push AC		// print n *
+15	CopyFromX
+27	Push X
+1 	Load 1
+3
+14	CopyToX
+6	LoadSpX
+14	CopyToX
+1 	Load ' '	:Loop
+42
+9	Output char
+2
+26	DecX
+15	CopyFromX
+22	JumpIfNotZero
+62				// GOTO :Loop
+28	Pop AC
+14	CopyToX
+28	Pop AC
+24	Return
+27	Push AC 	// :Print new line
+1 	Load '\n'
+10
+9
+2 	Print '\n'
+28	PopAC
+24	Return
+
+
+
+
+.700			// Data
+20				// n = height of tree
+
+.1000
+30				// Empty interrupt handler

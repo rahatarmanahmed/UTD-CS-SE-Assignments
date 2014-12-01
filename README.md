@@ -9,3 +9,7 @@ Each course directory will have its own README explaining the course and the ass
 The code in this repository is not the best representative of my capabilities, merely proof of what I have done studying at UTD.
 
 My best projects are displayed on my personal webpage: http://rahatah.me/d
+
+## Hello Prospective Plagarizers
+
+You can't use my code for your class assignments. So don't.

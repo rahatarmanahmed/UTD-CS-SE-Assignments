@@ -1,0 +1,52 @@
+2.
+add $s0, $t0, $t1	->
+opcode	rs		rt		rd		shamt	funct	(R-type)
+000000 	01000 	01001 	10000 	00000 	100000
+
+subu $s1, $s1, $s7	->
+opcode	rs		rt		rd		shamt	funct	(R-type)
+000000 	10001 	10111 	10001 	00000 	100011
+
+addi $s1, $s2, 2000	->
+opcode	rs		rt		immediate				(I-type)
+001000 	10010 	10001 	0000011111010000
+
+lw   $s0, 32($s1)	->
+opcode	rs		rt		immediate				(I-type)
+100011 	10001 	10000 	0000000000100000
+
+sw $t9, 12($t0)		->
+opcode	rs		rt		immediate				(I-type)
+101011 	01000 	11001 	0000000000001100
+
+
+3.
+0x02114021	->
+000000 	10000 	10001 	01000 	00000 	100001	->
+opcode	rs		rt 		rd		shamt	funct
+addi	16		17		8		->
+addi	$8, $16, $17
+
+0x250803e8	->
+001001 	01000 	01000 	0000001111101000		->
+opcode	rs		rt 		immediate
+addiu	8		8		1000 	->
+addiu	$8, $8, 1000
+
+0x01090019	->
+000000 	01000 	01001 	00000 	00000 	011001	->
+opcode	rs		rt 		rd		shamt	funct
+multu	8		9		 		->
+multu	$8, $9
+
+0x00008010	->
+000000 	00000 	00000 	10000 	00000 	010000 	->
+opcode	rs		rt 		rd		shamt	funct
+mfhi					16		->
+mfhi	$16
+
+0x00008812	->
+000000 	00000 	00000 	10001 	00000 	010010	->
+opcode	rs		rt 		rd		shamt	funct
+mflo					17		->
+mflow	$17

@@ -1,6 +1,8 @@
 # ECS 1200 - Introduction to Engineering and Computer Science
 
-This is the introductory class all engineering and CS students take (replaces UNIV 1010).
+## Course Description
+
+Introduction to the engineering and computing professions; overview of ECS curricula, connections among ECS fields and to the sciences, and other fields; basic study, problem solving and other skills needed to succeed as an ECS major. Introduction to professional ethics, Engineering design and quantitative methods; team projects designed to replicate decision processes in real-world situations; additional preparatory topics for the student's ECS major.
 
 ## ECS Design Project
 

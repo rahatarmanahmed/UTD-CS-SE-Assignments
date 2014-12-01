@@ -1,0 +1,27 @@
+#include <iostream>
+#include <fstream>
+#include <iomanip>
+#include <string>
+#include <sstream>
+
+#include "product.h"
+#include "Tokenizer.h"
+#include "LooupTable.h"
+
+using namespace std;
+
+main():
+
+	LookupTable<Product *> table;
+
+	table.addRange(0, 9999);
+	table.addRange(90000, 99999);
+	...
+
+	in a loop:
+		read a product info from file
+		// add product to lookup table
+		table[plu] = new Product(...);
+
+	later, in a loop to write output for each product, also do
+	... delete table[plu];

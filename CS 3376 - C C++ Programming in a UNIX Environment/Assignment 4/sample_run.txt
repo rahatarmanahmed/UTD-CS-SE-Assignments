@@ -1,0 +1,37 @@
+
+Enter PLU code or 0 to complete checkout: 4011
+
+Enter the weight for BANANAS: 52.5
+Total so far: $ 25.72
+
+Enter PLU code or 0 to complete checkout: 94011
+
+Enter the weight for ORGANIC_BANANAS: 35.8
+Total so far: $ 61.17
+
+Enter PLU code or 0 to complete checkout: 0
+   Total: $ 61.17
+Discount: $ 3.06
+Amount due: $ 58.11
+Press y to checkout the next customer (n to quit): y
+
+Enter PLU code or 0 to complete checkout: 4015
+
+Enter the weight for DELICIOUS_RED_REG: 10
+Total so far: $ 11.90
+
+Enter PLU code or 0 to complete checkout: 4135
+
+Enter the weight for GALA_LGE: 10
+Total so far: $ 25.40
+
+Enter PLU code or 0 to complete checkout: 3115
+
+Enter the weight for PEACHES: 2
+Total so far: $ 29.58
+
+Enter PLU code or 0 to complete checkout: 0
+Amount due: $ 29.58
+Press y to checkout the next customer (n to quit):n
+
+Thanks for using grocery checkout software. Bye.

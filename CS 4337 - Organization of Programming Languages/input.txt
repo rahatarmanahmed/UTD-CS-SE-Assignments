@@ -1,0 +1,19 @@
+is_even(178).
+is_even(21).
+fact(3, Factorial).
+fact(6, Factorial).
+is_prime(17).
+is_prime(21).
+segregate([8, 7, 6, 5, 4, 3], Even, Odd).
+segregate([7, 2, 3, 5, 8], Even, Odd).
+prod_list([4, 3], Product).
+prod_list([6, 2, 5, 10], Product).
+bookends([1],[3,4,5],[1,2,3,4,5]).
+bookends([],[4],[1,2,3,4]).
+bookends([1,2,3],[3,4],[1,2,3,4]).
+bookends([1],[2,3],[1,2,3,4]).
+subslice([2,3,4],[1,2,3,4]).
+subslice([3],[1,2,4]).
+subslice([],[1,2,4]).
+subslice([1,2,4],[]).
+suspect(Killer,mrBoddy).
