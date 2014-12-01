@@ -1,4 +1,4 @@
-# CS 3345 - Data Structures and Introduction to Algorithmic Analysis
+# CS 4337 - Organization of Programming Languages
 
 ## Course Description
 
