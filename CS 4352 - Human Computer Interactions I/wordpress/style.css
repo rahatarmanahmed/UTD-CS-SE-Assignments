@@ -1,0 +1,188 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-family: Arial;
+}
+
+.sidebar-nav {
+	background-color: #66757F;
+	height: 100%;
+	padding: 0;
+	/*padding-left: 15px;*/
+}
+
+.sidebar-nav ul {
+	width: 100%;
+	list-style: none;
+}
+
+.sidebar-nav li {
+	color: #CCC;
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.sidebar-nav li:hover, .sidebar-nav a:hover {
+	background: #808F99;
+	color: #FFF;
+}
+
+.sidebar-nav-item.active
+{
+  background: #2d6ca2;
+  color: #FFF;
+}
+
+.sidebar-nav a {
+	display: inline-block;
+	color: #CCC;
+	text-decoration: none;
+	width: 100%;
+	height: 100%;
+}
+
+.main-content {
+	padding-top: 15px;
+}
+
+
+.input-xs.form-control {
+	width: 130px;
+	padding-left: 7px
+}
+
+.input-xxs.form-control {
+	width: 50px;
+}
+
+.new-experiment-btn, .email-participants-btn {
+	margin-top: -55px;
+}
+
+.signup-table td{
+  vertical-align: center;
+}
+
+.width100 {
+  width: 100% !important;
+}
+
+#requirement-warning h5 {
+  margin-top: 0;
+}
+
+/* Something i stole for form resets*/
+.form-vertical .form-horizontal .control-group > label {
+  text-align: left;
+}
+.form-horizontal .form-vertical .control-group > label {
+  float: none;
+  padding-top: 0;
+  text-align: left;
+}
+.form-horizontal .form-vertical .controls {
+  margin-left: 0;
+}
+.form-horizontal .form-vertical.form-actions,
+.form-horizontal .form-vertical .form-actions {
+  padding-left: 20px;
+}
+.control-group .control-group {
+  margin-bottom: 0;
+}
+
+/* Bootstrap shit */
+/* Bootstrap shit */
+/* Bootstrap shit */
+/* Bootstrap shit */
+/* Bootstrap shit */
+/* Bootstrap shit */
+/* Bootstrap shit */
+
+.container {
+  width: 800px;
+  max-width: none !important;
+  padding-left: 0px;
+  margin-left: 15px;
+}
+
+/* Always float the navbar header */
+.navbar-header {
+  float: left;
+}
+
+/* Undo the collapsing navbar */
+.navbar-collapse {
+  display: block !important;
+  height: auto !important;
+  padding-bottom: 0;
+  overflow: visible !important;
+}
+
+.navbar-toggle {
+  display: none;
+}
+.navbar-collapse {
+  border-top: 0;
+}
+
+.navbar-brand {
+  margin-left: -15px;
+}
+
+/* Always apply the floated nav */
+.navbar-nav {
+  float: left;
+  margin: 0;
+}
+.navbar-nav > li {
+  float: left;
+}
+.navbar-nav > li > a {
+  padding: 15px;
+}
+
+/* Redeclare since we override the float above */
+.navbar-nav.navbar-right {
+  float: right;
+}
+
+/* Undo custom dropdowns */
+.navbar .navbar-nav .open .dropdown-menu {
+  position: absolute;
+  float: left;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0, 0, 0, .15);
+  border-width: 0 1px 1px;
+  border-radius: 0 0 4px 4px;
+  -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+          box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+}
+.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+  color: #333;
+}
+.navbar .navbar-nav .open .dropdown-menu > li > a:hover,
+.navbar .navbar-nav .open .dropdown-menu > li > a:focus,
+.navbar .navbar-nav .open .dropdown-menu > .active > a,
+.navbar .navbar-nav .open .dropdown-menu > .active > a:hover,
+.navbar .navbar-nav .open .dropdown-menu > .active > a:focus {
+  color: #fff !important;
+  background-color: #428bca !important;
+}
+.navbar .navbar-nav .open .dropdown-menu > .disabled > a,
+.navbar .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+.navbar .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+  color: #999 !important;
+  background-color: transparent !important;
+}
+
+.navbar {
+	margin-bottom: 0;
+}
